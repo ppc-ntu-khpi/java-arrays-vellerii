@@ -5,8 +5,8 @@ import domain.Exercise;
 public class TestResult {
 
     public static void main(String[] args) {
-
-        int R=10;
-        System.out.println("Area of a circle for R="+R+"m is "+Exercise.Calculate(R)+"m"+'\u00B2');
+        int[] theArray = {110, 24, 36, 453, 52, 340};
+        
+        Exercise.Calculate(theArray);
     }
 }
